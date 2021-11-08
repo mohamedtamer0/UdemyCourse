@@ -4,7 +4,6 @@ package comments
 
 /* This is a block comment
    on multiple lines. */
-
 fun main() {
 
 }
