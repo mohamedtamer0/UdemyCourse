@@ -13,4 +13,17 @@ fun main() {
     println(name1 != name2)
 
 
+    println("===============================")
+
+    //Referential Equality
+    // = = =
+
+    var obj1 = Person("Tamer")
+    var obj2 = Person("Tamer")
+
+    println(obj1 === obj2)
+    println(obj1 !== obj2)
+
 }
+
+class Person(var name: String)
