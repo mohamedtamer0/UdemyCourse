@@ -1,11 +1,12 @@
 package functions
 
 fun main() {
-    sayHi()
     printName()
-
-    sum(5,5)
+    sayHi()
+    sayHi()
+    sayHi()
 }
+
 
 fun printName(){
     println("Hello Tamer")
@@ -17,8 +18,3 @@ fun printName(){
 fun sayHi() {
     println("Hi!")
 }
-
-fun sum (num1:Int ,  num2 :Int) {
-    println(num1 + num2)
-}
-
