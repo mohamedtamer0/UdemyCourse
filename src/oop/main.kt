@@ -2,7 +2,7 @@ package oop
 
 
 fun main() {
-    var user = User("Mohamed","Tamer",true)
+    var user = User("Mohamed","Tamer")
     user.printFullName()
     println("=========================")
 

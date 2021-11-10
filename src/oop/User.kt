@@ -1,14 +1,29 @@
 package oop
 
-class User (var firstName: String,var lastName: String, var isPlatinum:Boolean) {
+class User (var firstName: String,var lastName: String) {
 
-    constructor(firstName: String,lastName: String):this(firstName,lastName,false) {
+    constructor(firstName: String):this(firstName,"Mohamed") {
         println("2nd")
     }
 
-    constructor(firstName: String):this(firstName,"None") {
-        println("3rd")
+    init {
+        println("Hello 1")
     }
+
+    init {
+        println("Hello 2")
+    }
+
+
+
+
+//    constructor(firstName: String,lastName: String):this(firstName,lastName,false) {
+//        println("2nd")
+//    }
+//
+//    constructor(firstName: String):this(firstName,"None") {
+//        println("3rd")
+//    }
 
 
     fun printFullName() {
