@@ -2,19 +2,21 @@ package oop
 
 class User (var firstName: String,var lastName: String) {
 
-    constructor(firstName: String):this(firstName,"Mohamed") {
-        println("2nd")
-    }
+    val fullName = "$firstName $lastName"
 
     init {
         println("Hello 1")
+        println("This is the class for user $fullName")
     }
 
-    init {
-        println("Hello 2")
-    }
+//    init {
+//        println("Hello 2")
+//    }
+//
 
-
+//    constructor(firstName: String):this(firstName,"Mohamed") {
+//        println("2nd")
+//    }
 
 
 //    constructor(firstName: String,lastName: String):this(firstName,lastName,false) {
