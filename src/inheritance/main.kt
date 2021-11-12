@@ -8,6 +8,7 @@ fun main() {
     obj1.job = "Developer"
     println(obj1.printInfo())
     println(obj1.printJob())
+    //println(obj1.printAllInfo())
     println("==========")
     val obj2 = C()
     obj2.email= "hhhd@jj.com"
