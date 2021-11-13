@@ -2,9 +2,17 @@ package oop
 
 class User (var firstName: String,var lastName: String) {
 
+
     val fullName = "$firstName $lastName"
 
-    var age:Int
+    val age:Int
+
+    init {
+        println("Hello From Init")
+        println("This is the class for user $fullName")
+        age = 25
+        println("$age")
+    }
 
 
     constructor(firstName: String):this(firstName,"Mohamed") {
@@ -13,11 +21,18 @@ class User (var firstName: String,var lastName: String) {
 
 
     init {
-        println("Hello From Init")
-        println("This is the class for user $fullName")
-        age = 25
-        println("$age")
+        println("Hello From Init 2 ")
     }
+
+
+
+
+
+
+
+
+
+
 
 
 
