@@ -10,6 +10,7 @@ abstract class Person(val name:String) {
         println("My Id Is $id")
     }
 
+
     abstract fun displayJob(desc:String)
 }
 

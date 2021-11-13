@@ -28,5 +28,11 @@ fun main() {
     user3.printWithPrefix("Ms,")
     user3.firstNameLength()
 
+    println("=========================")
+
+    val user4 = User("Mohamed")
+
+
+
 }
 
