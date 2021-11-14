@@ -9,6 +9,17 @@ fun main() {
     println(allFruits)
     println(allFruits.flatten())
 
+    println("======================================")
+    println("How to Combine Multiple Immutable Lists in Kotlin")
+
+    val result = fruits1.plus(fruits2).plus(fruits3)
+    println(result)
+    println(result.minus(fruits3))
+    println(result.minus("Lemon"))
+
+
+
+
 
 //    val fruits1 = arrayOf("Apple","Orange","Banana","Avocado")
 //    val fruits2 = arrayOf("Blueberries","Lemon","Mango")
