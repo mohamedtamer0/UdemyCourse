@@ -1,15 +1,15 @@
 package anonymous
 
-class A(val name:String) {
-//    fun printName() {
-//        println("Hi $name")
-//    }
+open class A(val name:String) {
+   open fun printName() {
+        println("Hi $name")
+    }
 }
 
 
 fun main() {
 
-    val helloWorld = object  {
+    val helloWorld = object {
         val hello = "Hello"
         val world = "World"
         override fun toString() = "$hello $world"
