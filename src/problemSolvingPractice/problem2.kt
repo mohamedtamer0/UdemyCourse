@@ -25,6 +25,11 @@ fun main() {
 
 
     val word1 = readln()
+    val word2 = readln()
+    val word3 = readln()
+    val word4 = readln()
+
+
 
 
 }
