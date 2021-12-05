@@ -24,12 +24,20 @@ Never gonna give you up
 fun main() {
 
 
-    val word1 = readln()
-    val word2 = readln()
-    val word3 = readln()
-    val word4 = readln()
+    print(mutableListOf<String>().also { lst -> repeat(5) {lst.add(readln())} }.joinToString(" "))
 
 
+//    val a = List(5){ readln()}
+//    a.forEach { print("$it ") }
 
 
+//    println(Array(5){ readln()}.joinToString(separator = " "))
+
+//    val word1 = readln()
+//    val word2 = readln()
+//    val word3 = readln()
+//    val word4 = readln()
+//    val word5 = readln()
+//
+//    println("$word1 $word2 $word3 $word4 $word5")
 }
